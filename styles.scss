@@ -1,0 +1,87 @@
+$color-main: #FA4A0C;
+$color-gray: #252B42;
+body {
+    font-family: 'Montserrat', sans-serif !important;
+}
+.header {
+    &__menu {
+        
+        ul {
+            li {
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 600;
+                color: $color-gray;
+                &:nth-child(1){
+                    color: $color-main;
+                }
+                
+            }
+        }
+    }
+    .menu__icon { 
+        color: #737373;
+    }
+}
+.subheader {
+    height: 38rem;
+    background-image: url('./public/img/subbackground.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .playstore{
+        background-color: #FA4A0C;
+        
+    }
+    &__title {
+        h1 {
+            line-height: 4rem;
+            font-family: 'Poppins', sans-serif;
+        }
+    }
+
+}
+.gachngan {
+    hr {
+        border-style: solid;
+    }
+}
+.howapp {
+    h1{
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+.howapp {
+    &__title {
+        h1 {
+            color: #252B42;
+        }
+    }
+    &__item{
+        &-right {
+            h3 {
+                &:nth-child(1){
+                    color: $color-main;
+                }
+                color: #737373;
+            }
+            h1 {
+                color: $color-gray;
+            }
+        }
+    }
+}
+
+.download {
+    height: 31rem;
+    background-image: url('./public/img/subbackground2.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer {
+    height: 10rem;
+    .icon {
+        color: $color-main;
+    }
+}

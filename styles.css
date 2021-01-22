@@ -1,0 +1,75 @@
+body {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.header__menu ul li {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #252B42;
+}
+
+.header__menu ul li:nth-child(1) {
+  color: #FA4A0C;
+}
+
+.header .menu__icon {
+  color: #737373;
+}
+
+.subheader {
+  height: 38rem;
+  background-image: url("./public/img/subbackground.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.subheader .playstore {
+  background-color: #FA4A0C;
+}
+
+.subheader__title h1 {
+  line-height: 4rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.gachngan hr {
+  border-style: solid;
+}
+
+.howapp h1 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.howapp__title h1 {
+  color: #252B42;
+}
+
+.howapp__item-right h3 {
+  color: #737373;
+}
+
+.howapp__item-right h3:nth-child(1) {
+  color: #FA4A0C;
+}
+
+.howapp__item-right h1 {
+  color: #252B42;
+}
+
+.download {
+  height: 31rem;
+  background-image: url("./public/img/subbackground2.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer {
+  height: 10rem;
+}
+
+.footer .icon {
+  color: #FA4A0C;
+}
+/*# sourceMappingURL=styles.css.map */
